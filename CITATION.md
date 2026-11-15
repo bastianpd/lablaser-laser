@@ -4,11 +4,11 @@ If you use LaserLab in teaching, research or other work, please cite it.
 
 **APA**
 
-SEBASTIAO, P. S., FABRIS, J.L., MUELER, M. (2026). *LaserLab: Interactive Laser Physics Simulator* (Version 0.1.0) [Computer software]. https://bastianpd.github.io/laserlab/
+SEBASTIAO, P. S., FABRIS, J.L., MUELER, M. (2026). *LaserLab: Interactive Laser Physics Simulator* (Version 0.1.0) [Computer software]. [https://bastianpd.github.io/laserlab/](https://bastianpd.github.io/lablaser-laser/)
 
 **ABNT**
 
-SEBASTIAO, Pedro de Sousa; FABRIS, José Luís; Mueller, Marcia. **LaserLab: Interactive Laser Physics Simulator**. Versão 0.1.0. 2026. Software. Disponível em: https://bastianpd.github.io/laserlab/. Acesso em: [dia mês ano].
+SEBASTIAO, Pedro de Sousa; FABRIS, José Luís; Mueller, Marcia. **LaserLab: Interactive Laser Physics Simulator**. Versão 0.1.0. 2026. Software. Disponível em: [https://bastianpd.github.io/laserlab/](https://bastianpd.github.io/lablaser-laser/). Acesso em: [dia mês ano].
 
 **BibTeX**
 

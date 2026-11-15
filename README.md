@@ -1,4 +1,4 @@
-# LaserLab — Interactive Laser Physics Simulator
+# LaserLab - Interactive Laser Physics Simulator
 
 An educational, browser-only simulator of a four-level laser (React + Vite, plain JavaScript). It integrates the rate equations in real time and draws the energy levels, populations, emission processes and resonator **from the simulated state**. It is a teaching model, **not** a replacement for laser-design software or experimental characterization.
 

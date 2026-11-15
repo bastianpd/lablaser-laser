@@ -5,8 +5,8 @@ type: software
 version: 0.1.0
 date-released: 2026-11-06
 license: MIT
-repository-code: "https://github.com/SEU-USUARIO/laserlab"
-url: "https://SEU-USUARIO.github.io/laserlab/"
+repository-code: "https://github.com/bastianpd/laserlab"
+url: "https://bastianpd.github.io/laserlab/"
 abstract: "Educational, browser-based simulator of a four-level laser. It integrates the population and photon rate equations (RK4) and visualizes energy levels, population inversion, spontaneous and stimulated emission, optical gain, laser threshold and the optical resonator."
 keywords:
   - laser physics
@@ -15,5 +15,9 @@ keywords:
   - physics education
   - interactive simulation
 authors:
-  - given-names: "SEU NOME"
-    family-names: "SEU SOBRENOME"
+  - given-names: "Pedro de Sousa"
+    family-names: "Sebastião",
+ - given-names: "José Luís"
+    family-names: "Fabris",
+- given-names: "Marcia"
+    family-names: "Mueller"

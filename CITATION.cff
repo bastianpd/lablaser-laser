@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "LaserLab: Interactive Laser Physics Simulator"
+type: software
+version: 0.1.0
+date-released: 2026-11-06
+license: MIT
+repository-code: "https://github.com/SEU-USUARIO/laserlab"
+url: "https://SEU-USUARIO.github.io/laserlab/"
+abstract: "Educational, browser-based simulator of a four-level laser. It integrates the population and photon rate equations (RK4) and visualizes energy levels, population inversion, spontaneous and stimulated emission, optical gain, laser threshold and the optical resonator."
+keywords:
+  - laser physics
+  - rate equations
+  - population inversion
+  - physics education
+  - interactive simulation
+authors:
+  - given-names: "SEU NOME"
+    family-names: "SEU SOBRENOME"

@@ -1,23 +1,32 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software, please cite it using the metadata from this file."
 title: "LaserLab: Interactive Laser Physics Simulator"
 type: software
 version: 0.1.0
 date-released: 2026-11-06
+url: "https://bastianpd.github.io/lablaser-laser/"
+repository-code: "https://github.com/bastianpd/laserlab-laser/"
 license: MIT
-repository-code: "https://github.com/bastianpd/laserlab"
-url: "https://bastianpd.github.io/laserlab/"
-abstract: "Educational, browser-based simulator of a four-level laser. It integrates the population and photon rate equations (RK4) and visualizes energy levels, population inversion, spontaneous and stimulated emission, optical gain, laser threshold and the optical resonator."
+abstract: >
+  Educational, browser-based simulator of a four-level laser system. 
+  It numerically integrates population and photon rate equations using the Runge-Kutta 
+  method (RK4) to visualize energy levels, population inversion, spontaneous and stimulated 
+  emission, optical gain, laser threshold dynamics, and the optical resonator cavity.
 keywords:
   - laser physics
   - rate equations
   - population inversion
+  - photonics
   - physics education
-  - interactive simulation
+  - numerical simulation
+  - interactive software
 authors:
   - given-names: "Pedro de Sousa"
-    family-names: "Sebastião",
- - given-names: "José Luís"
-    family-names: "Fabris",
-- given-names: "Marcia"
-    family-names: "Mueller"
+    family-names: "Sebastião"
+    affiliation: "Universidade Tecnológica Federal do Paraná (UTFPR)"
+  - given-names: "José Luís"
+    family-names: "Fabris"
+    affiliation: "Universidade Tecnológica Federal do Paraná (UTFPR)"
+  - given-names: "Márcia"
+    family-names: "Muller"
+    affiliation: "Universidade Tecnológica Federal do Paraná (UTFPR)"

@@ -18,7 +18,7 @@ SEBASTIAO, Pedro de Sousa; FABRIS, José Luís; Mueller, Marcia. **LaserLab: Int
   title   = {LaserLab: Interactive Laser Physics Simulator},
   year    = {2026},
   version = {0.1.0},
-  url     = {https://bastianpd.github.io/laserlab/}
+  url     = {[https://bastianpd.github.io/laserlab/](https://bastianpd.github.io/lablaser-laser/)}
 }
 ```
 

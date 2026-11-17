@@ -66,4 +66,4 @@ Lumped single-mode model, equal degeneracies, no spatial hole burning, thermal e
 Plotly graphs, αi/αm split, Q-switching/relaxation-oscillation module, real material presets, level diagram for the three-level model, screenshots, browser end-to-end tests.
 
 ## License
-MIT (see `LICENSE`).
+CC BY-NC-ND 4.0 (see `LICENSE`).

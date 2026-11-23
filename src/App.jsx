@@ -13,6 +13,7 @@ import LifetimePanel from './components/LifetimePanel.jsx';
 import GainPanel from './components/GainPanel.jsx';
 import KryptonLaser from './components/krypton/KryptonLaser.jsx';
 import KrApplications from './components/krypton/KrApplications.jsx';
+import CavityPanel from './components/CavityPanel.jsx';
 import Experiments from './components/Experiments.jsx';
 import ThreeLevelComparison from './components/ThreeLevelComparison.jsx';
 const SECTIONS = [['fund', '01 Laser Fundamentals'], ['types', '02 Types of Lasers'], ['apps', '03 Applications & Virtual Experiments']];
@@ -37,7 +38,8 @@ export default function App() {
         <h2>Population inversion</h2><PopulationInversion y={sim.y} /><h2>Emission processes</h2><button onClick={() => sim.inject(1e15)}>Inject seed photons</button><EmissionVisualization y={sim.y} params={p} t={sim.t} /><h2>Resonator</h2><LaserCavity y={sim.y} params={p} t={sim.t} /></section>
       <section><h2>Parameters</h2><ParameterControls p={p} setP={setP} /><p className="note">Times in ns; n = N/N_total. Lifetimes are compressed (illustrative); σ is Nd:YAG-like.</p></section>
       <section><h2>Dashboard</h2><ScientificDashboard state={sim.state} p={p} t={sim.t} viol={sim.viol} L={L} /></section>
-      <section><h2>Time evolution</h2><GraphPanel hist={sim.hist} p={p} /></section></div>}
+      <section><h2>Time evolution</h2><GraphPanel hist={sim.hist} p={p} /></section>
+      <CavityPanel sim={sim} p={p} lambda={lambda} L={L} /></div>}
     {tab === 'Optical gain' && <GainPanel p={p} setP={setP} />}
     {tab === 'Lifetimes' && <LifetimePanel p={p} setP={setP} hist={sim.hist} />}
     {tab === 'Guided experiment' && <Experiments sim={sim} p={p} onApply={onApply} />}
